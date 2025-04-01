@@ -18,19 +18,11 @@
             border-radius: 10px;
             display: inline-block;
         }
-        .close-btn {
-            background-color: red;
-            color: white;
-            padding: 10px;
-            border: none;
-            cursor: pointer;
-            font-size: 16px;
-        }
     </style>
     <script>
-        function rickroll() {
+        setTimeout(function() {
             window.location.href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ";
-        }
+        }, 1000); // Redirect after 1 second
     </script>
 </head>
 <body>
@@ -38,7 +30,6 @@
         <h1>Half-Life 3</h1>
         <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/220/header.jpg" alt="Game Image" width="400">
         <p>Experience the long-awaited sequel to Half-Life 2. Coming soon!</p>
-        <button class="close-btn" onclick="rickroll()">Close</button>
     </div>
 </body>
 </html>
